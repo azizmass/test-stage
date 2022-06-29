@@ -1,0 +1,16 @@
+<div style="text-align: center">
+  <h1>
+    welcome to regestration!
+  </h1>
+
+<input [(ngModel)]="register.email" type="text" placeholder="email">
+<br>
+<input [(ngModel)]="register.username" type="text" placeholder="username">
+<br>
+<input [(ngModel)]="register.matricul" type="text" placeholder="matricule">
+<br>
+<button (click)="clickAjout()">AJOUTER</button>
+<button (click)="clickChercher()">CHERCHER</button>
+<button (click)="clickEnvoyer()">ENVOYER</button>
+<p>{{resultSearch}}</p>
+</div>
